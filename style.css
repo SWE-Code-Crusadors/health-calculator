@@ -1,0 +1,61 @@
+body {
+    font-family: 'Garamond', serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-title{
+    font: size 24px;
+    margin-bottom: 10px;
+}
+
+h2.project-description {
+    font-size: 18px;
+    width: 750px;
+    padding: 25px;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.individual-info{
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section {
+    margin: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
