@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const calculateRiskButton = document.getElementById("calculateRisk")
     calculateRiskButton.addEventListener('click', async function() {
-        const response = await fetch(`http://localhost:3000/calculate?age=${ageBar.value}
+        const response = await fetch(`https://health-calculator-api.azurewebsites.net/calculate?age=${ageBar.value}
         &height=${heightBar.value}&weight=${weightBar.value}&sbp=${sbpBar.value}&dbp=${dbpBar.value}
         &diabetes=${diabetesBar.value}&cancer=${cancerBar.value}&alzheimers=${alzheimersBar.value}`
         )
