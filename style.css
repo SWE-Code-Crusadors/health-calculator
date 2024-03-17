@@ -59,3 +59,21 @@ section {
 .content {
     margin-bottom: 20px;
 }
+
+.results {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    flex: 1;
+    margin-right: 10px;
+  }

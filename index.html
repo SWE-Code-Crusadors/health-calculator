@@ -19,25 +19,37 @@
     <div class="individual-info">
         <label for="age">Enter the persons age in years:</label>
         <input type="text" id="age" name="age">
+        <span class="error" id="age-error"></span>
         <label for="height">Enter the persons height in inches:</label>
         <input type="text" id="height" name="height">
+        <span class="error" id="height-error"></span>
         <label for="weight">Enter the persons weight in pounds:</label>
         <input type="text" id="weight" name="weight">
+        <span class="error" id="weight-error"></span>
         <label for="systolic-blood-pressure">Enter the persons systolic blood pressure:</label>
         <input type="text" id="systolic-blood-pressure" name="systolic-blood-pressure">
+        <span class="error" id="systolic-error"></span>
         <label for="diastolic-blood-pressure">Enter the persons diastolic blood pressure:</label>
         <input type="text" id="diastolic-blood-pressure" name="diastolic-blood-pressure">
+        <span class="error" id="diastolic-error"></span>
         <body>
             Does the person have a family history of....
         </body>
         <label for="diabetes">Diabetes?</label>
         <input type="text" id="diabetes" name="diabetes">
+        <span class="error" id="diabetes-error"></span>
         <label for="cancer">Cancer?</label>
         <input type="text" id="cancer" name="cancer">
+        <span class="error" id="cancer-error"></span>
         <label for="alzheimers">Alzheimers?</label>
         <input type="text" id="alzheimers" name="alzheimers">
-        <button id = "calculateRisk">Calculate Risk Factor</button>
+        <span class="error" id="alzheimers-error"></span>
+        <div class="button-container">
+            <button id="calculateRisk">Calculate Risk Factor</button>
+            <button id="clearFields">Clear Fields</button>
+        </div>
     </div>
+    <div id='riskResult' class="results"></div>
     <script src="app.js"></script>
 </body>
 </html>
